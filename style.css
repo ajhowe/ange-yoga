@@ -1,0 +1,318 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+
+[class*=col-], [class*=col_], [class~=col] {
+  padding:none;
+}
+
+img{
+  max-width:100%;
+}
+
+/* -----------------------------universal styles----------------------------*/
+
+body{
+  background-color:white;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+h1, h2, h3 {
+  font-family:'Open Sans', sans-serif;
+  text-align:center;
+}
+
+h1 {
+  color: grey;
+  font-size:40px;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  }
+
+h3 {
+  color:black;
+  font-size:20px;
+}
+
+/*section {
+  padding: 5%;
+}*/
+
+.center {
+  text-align: center;
+}
+
+
+/*-------------------------------header sytling-----------------------------*/
+
+nav {
+  text-decoration: none;
+  font-size: 10px;
+  color: grey;
+  padding: 2%;
+  text-align:right;
+}
+nav a{
+  padding:0 2%;
+  color: grey;
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing:3px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#C5919D;
+  font-weight: bold;
+  font-size: 20px;
+}
+.banner{
+  background-size:cover;
+  height: 90vh;
+}
+.headerText{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------------------home page styling----------------------------*/
+
+.about-text h2{
+  background-color: #C5919D;
+  padding: 5%;
+  margin: 5%;
+}
+
+.about-text p{
+  padding: 0%;
+  margin: 5%;
+}
+
+.circle-thumb {
+  height: 22vw;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0;
+}
+.location-background {
+  background-color: lightgrey;
+}
+/* want to have padding in most sections to have white space on the side of text*/
+
+/*--------------------------------my journey styling*-------------------*/
+.ange-image{
+  background-image: url('https://unsplash.it/200/300/?random');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: top;
+}
+
+.boys-image{
+background-image: url('https://unsplash.it/200/300/?random');
+background-repeat: no-repeat;
+background-size: cover;
+height: 50vh;
+background-position: top;
+}
+
+.qualifications {
+
+}
+
+/*background colour for qualifiecations box iwth bullte points
+/*padding in this section*/
+
+
+/*-----------------------classes styling---------------------------*/
+
+/*have padding in this section.*/
+.classes{
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20vw;
+  margin-bottom: 5%;
+  background-position: top;
+}
+
+.hatha {
+  background-image: url('https://unsplash.it/100/100/?random');
+}
+.yin{
+  background-image: url('https://unsplash.it/200/200/?random')
+}
+
+.kid{
+    background-image: url('https://unsplash.it/300/200/?random')
+}
+
+.preg{
+    background-image: url('https://unsplash.it/400/300/?random')
+}
+ h3{
+  background-color: #C5919D;
+}
+
+p{
+  padding: 5%;
+}
+
+.timetable h3 {
+  text-align:center;
+  background-color: #C5919D;
+}
+.timetable p{
+  text-align: center;
+}
+.tableBorder{
+  border: 1px solid black;
+  padding: 0%;
+}
+
+
+
+/*-----------------------coaching section styling---------------------*/
+
+
+/*----------------------meditation section styling---------------------*/
+
+.meditation-header{
+  padding: 2%;
+}
+
+.meditation-paragraph {
+  padding 2%
+}
+
+/*services section*/
+
+.service-block{
+  padding: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------blog post styling-----------------------------------*/
+.recent-posts {
+  padding: 5%;
+}
+
+.post-preview {
+  background color: lightgrey;
+}
+
+.post-preview h3 {
+  text-transform:capitalize;
+  padding: 5%;
+}
+
+.main-body {
+  width: 60%;
+}
+.side-bar {
+  width: 30%;
+}
+/*------------------------------BURGER MENU STYLING*-------------------------*/
+
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 99999999;
+}
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C3BFBC;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  display:block;
+  padding:5px 15px;
+  text-align:center;
+  white-space:nowrap;
+}
+.burger-menu li{list-style:none}
+/* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
+.burger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+/*this is where you can change the color of the buttons*/
+.burger-button span{
+  width: 25px;
+  border: 2px solid black;
+  background-color: black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+.burger-top{
+  top: 02px;
+}
+.burger-bottom{
+  bottom: 02.5px;
+}
+
+.active .burger-top{
+  transform: rotateZ(45deg);
+  top:8px;
+}
+.active .burger-bottom{
+  transform: rotateZ(-45deg);
+  bottom:8px;
+
+}
+.active .burger-middle{
+  opacity: 0;
+}
+
+
+.mob-show{
+  display: none;
+}
+
+@media all and (max-width:465px){
+
+  .mob-show {
+    display: block;
+  }
+
+  .mob-hide {
+    display:none;
+  }
+
+}

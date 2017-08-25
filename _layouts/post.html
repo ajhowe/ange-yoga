@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="grid">
+  <div class ="main-body">
+
+    {{ content }}
+
+  </div>
+
+  <div class="side-bar">
+
+    {% for post in site.posts %}
+
+    <ahref {{"post.url"}}> {{post.title}}</ahref>
+
+    {% endfor %}
+
+  </div>
+</section>
