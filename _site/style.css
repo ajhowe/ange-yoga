@@ -31,15 +31,23 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: white;
   font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  max-width: 720px;
+  margin: auto;
+  background-color: #C5919D;
+  padding: 3%;
   }
 
 h3 {
-  color:black;
+  color: white;
   font-size:20px;
+  text-shadow: 2px 2px 4px #000000;
 }
-
+.container{
+  margin-top:5%;
+}
 /*section {
   padding: 5%;
 }*/
@@ -50,15 +58,23 @@ h3 {
 
 
 /*-------------------------------header sytling-----------------------------*/
+header {
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
 
 nav {
   text-decoration: none;
   font-size: 10px;
   color: grey;
   padding: 2%;
-  text-align:right;
+  text-align:center;
   margin-top: 0%;
   margin-bottom: -2%;
+  background-color:white;
+  width: 100%;
 }
 nav a{
   padding:0 2%;
@@ -71,6 +87,9 @@ nav a{
 nav a:hover {
   color:#C5919D;
   font-weight:bolder;
+}
+.top-section {
+  position: fixed;
 }
 
 .banner{
@@ -86,6 +105,7 @@ nav a:hover {
 
 .footer{
 font-size: 30px;
+text-align:center;
 }
 
 /*---------------------------home page styling----------------------------*/
@@ -115,6 +135,7 @@ font-size: 30px;
 }
 .circle-thumb h2{
   transition: 2s;
+  text-shadow: 2px 2px 4px #000000;
 }
 .circle-thumb h2:hover{
   color:#C5919D;
@@ -131,31 +152,28 @@ font-size: 30px;
 
 .journey-header {
   background-color: #C5919D;
-  padding-top: 5%;
+  padding-top: 6%;
   padding-bottom: 5%;
   margin-top: 5%;
 }
 
 .ange-image{
 margin-left: 8%;
-margin-top: 5%;
+margin-top: 4%;
 }
+
+.ange-paragraph {
+  padding: 2%;
+}
+
 
 .boys-paragraph{
 margin-left: 3%;
 margin-right: 3%;
 }
 
-.qual-header {
-  background-color: #C5919D;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-top: 5%;
-}
-
 .qualifications {
   padding:3%;
-
 }
 
 /*background colour for qualifiecations box iwth bullte points
@@ -171,6 +189,10 @@ margin-right: 3%;
   min-height: 20vw;
   margin-bottom: 5%;
   background-position: top;
+}
+
+.class-title {
+  padding-top: 7%;
 }
 
  h3{
@@ -194,9 +216,6 @@ p{
   padding: 0%;
 }
 
-.ange-paragraph {
-  padding: 6%;
-}
 
 
 
@@ -219,6 +238,11 @@ align-items: center;
 
 
 /*----------------------meditation section styling---------------------*/
+.grid-center {
+  padding: 3%;
+}
+
+
 .med-banner{
   background-image: url ('images/meditation.jpeg');
   background-repeat: no-repeat;
@@ -232,11 +256,21 @@ align-items: center;
 
 .meditation-header{
   padding: 2%;
-  margin-top: 3%;
+  margin-top: -2%;
+  background-color: #C5919D;
+}
+
+.med-sub-header {
+  padding: 2%;
+  margin: 5% 5% 0% 5%;
+  font-weight: bold;
+  font-size: 20px;
+  text-align:center;
 }
 
 .meditation-paragraph {
-  padding 2%
+  padding: 0%;
+  margin: 5%;
 }
 
 /*services section*/
@@ -261,7 +295,11 @@ align-items: center;
 
 /*-------------------------blog post styling-----------------------------------*/
 .recent-posts {
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #C5919D;
+  margin: 7%;
+  margin-top:10%;
 }
 
 .post-preview {
@@ -278,6 +316,9 @@ align-items: center;
 }
 .side-bar {
   width: 30%;
+}
+.grid {
+  padding: 5%;
 }
 
 /*------------------------------BURGER MENU STYLING*-------------------------*/
@@ -341,7 +382,6 @@ align-items: center;
 .active .burger-bottom{
   transform: rotateZ(-45deg);
   bottom:8px;
-
 }
 .active .burger-middle{
   opacity: 0;

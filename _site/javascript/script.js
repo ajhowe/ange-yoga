@@ -5,3 +5,11 @@ $(document).ready(function(){
     $(".burger-button").toggleClass("active");
     });
   });
+
+
+
+  // when ready to call the carousel.
+  // $(document).ready(function(){
+  //   $(".owl-carousel").owlCarousel();
+  // });
+  //

@@ -1,14 +1,12 @@
 ---
 layout: default
-title: My Blog
+title: Blog
 ---
 <section>
-  <div class="recent-posts">
-    <h1> Recent Posts </h1>
+<div class="grid-center">
+  <div class="recent-posts col-6">
+    <h2> Recent Posts </h2>
   </div>
-
-
-<div class="grid">
 
 {% for post in site.posts limit:4 %}
 
@@ -19,16 +17,20 @@ title: My Blog
   <p> {{post.description}} </p>
   <p> {{post.author}} </p>
   <p> {{post.date | date_to_long_string }} </p>
-  <a href="post.url" Read More></a>
+  <a href="post.url">Read More</a>
 
 </div>
-</div
+
 {% endfor %}
+
+</div>
 </section>
 
 <section>
 
 <h2> Yoga Posts </h2>
+<div class="grid">
+
 
 {% for post in site.categories.yoga limit:4 %}
 
@@ -39,9 +41,21 @@ title: My Blog
   <p> {{post.description}} </p>
   <p> {{post.author}} </p>
   <p> {{post.date | date_to_long_string }} </p>
-  <a href="post.url" Read More></a>
+  <a href="post.url">Read More</a>
 
 </div>
 {% endfor %}
-
+</div>
 </section>
+
+<!-- <div class="owl-carousel">
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+
+  replace Your Content with an image source in between each div.
+</div> -->
