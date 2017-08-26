@@ -4,6 +4,11 @@ title: Benefits of Meditation
 description: this is a short description of my first blog post
 featured-image: http://lorempixel.com/400/200
 author: Angela Boyle
+categories:
+- meditation
+- yoga
+- mindfulness
+
 ---
 
 #Benefits of Meditation

@@ -4,6 +4,10 @@ title: Why I love practicing yoga
 description: this is a short description of my second blog post
 featured-image: http://lorempixel.com/400/200
 author: Angela Boyle
+categories:
+- yoga
+- mindfulness
+
 ---
 
 #Why I love practicing yoga

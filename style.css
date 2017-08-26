@@ -129,20 +129,32 @@ font-size: 30px;
 
 /*--------------------------------my journey styling*-------------------*/
 
-.journey-header h1{
+.journey-header {
   background-color: #C5919D;
-}
-.qual-header{
-  background-color: #C5919D;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 5%;
 }
 
 .ange-image{
 margin-left: 8%;
+margin-top: 5%;
 }
 
-.boys-image{
+.boys-paragraph{
+margin-left: 3%;
+margin-right: 3%;
 }
+
+.qual-header {
+  background-color: #C5919D;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+
 .qualifications {
+  padding:3%;
 
 }
 
@@ -170,7 +182,7 @@ p{
   padding: 3%;
 }
 
-.timetable h3 {
+.timetable h3{
   text-align:center;
   background-color: #C5919D;
 }
@@ -182,11 +194,15 @@ p{
   padding: 0%;
 }
 
+.ange-paragraph {
+  padding: 6%;
+}
+
 
 
 /*-----------------------coaching section styling---------------------*/
 .coaching-banner {
-  background-image: url('images/coaching.jpeg');
+background-image: url('images/coaching.jpeg');
 height: 60vh;
 background-repeat: no-repeat;
 background-size: cover;
@@ -194,23 +210,24 @@ background-position: center;
 justify-content: center;
 align-items: center;
 }
-
 .coaching h2{
-  padding-top: 3%;
-  margin-top: 3%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top: 10%;
   background-color: #C5919D;
 }
 
 
 /*----------------------meditation section styling---------------------*/
-.meditation-banner-image {
-  background-image: url ("images/meditation.jpeg")
+.med-banner{
+  background-image: url ('images/meditation.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 20vw;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
   margin-bottom: 5%;
-  background-position: top;
-
 }
 
 .meditation-header{
@@ -262,6 +279,7 @@ align-items: center;
 .side-bar {
   width: 30%;
 }
+
 /*------------------------------BURGER MENU STYLING*-------------------------*/
 
 .burger-menu {
