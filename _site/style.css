@@ -34,10 +34,6 @@ h2 {
   color: white;
   font-size: 30px;
   text-shadow: 2px 2px 4px #000000;
-  max-width: 720px;
-  margin: auto;
-  background-color: #C5919D;
-  padding: 3%;
   }
 
 h3 {
@@ -163,17 +159,20 @@ margin-top: 4%;
 }
 
 .ange-paragraph {
-  padding: 2%;
+  padding: 0%;
 }
-
+.boys-image {
+  padding-top: 3%;
+}
 
 .boys-paragraph{
 margin-left: 3%;
 margin-right: 3%;
+margin-top: 3%;
 }
 
 .qualifications {
-  padding:3%;
+  padding:10%;
 }
 
 /*background colour for qualifiecations box iwth bullte points
@@ -192,7 +191,7 @@ margin-right: 3%;
 }
 
 .class-title {
-  padding-top: 7%;
+  padding-top: 2%;
 }
 
  h3{
@@ -221,7 +220,7 @@ p{
 
 /*-----------------------coaching section styling---------------------*/
 .coaching-banner {
-background-image: url('images/coaching.jpeg');
+background-image: url('images/lifestyle.jpeg');
 height: 60vh;
 background-repeat: no-repeat;
 background-size: cover;
@@ -244,7 +243,7 @@ align-items: center;
 
 
 .med-banner{
-  background-image: url ('images/meditation.jpeg');
+  background-image: url('images/meditation2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -258,11 +257,13 @@ align-items: center;
   padding: 2%;
   margin-top: -2%;
   background-color: #C5919D;
+  max-width: 60%;
+  margin-left: 20%;
 }
 
 .med-sub-header {
-  padding: 2%;
-  margin: 5% 5% 0% 5%;
+  padding: 3%;
+  margin: 5%
   font-weight: bold;
   font-size: 20px;
   text-align:center;
@@ -295,11 +296,11 @@ align-items: center;
 
 /*-------------------------blog post styling-----------------------------------*/
 .recent-posts {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 4%;
   background-color: #C5919D;
-  margin: 7%;
-  margin-top:10%;
+  margin: 10%;
+  margin-top: 0%;
 }
 
 .post-preview {
@@ -319,6 +320,14 @@ align-items: center;
 }
 .grid {
   padding: 5%;
+}
+.category-posts {
+  padding-top: 3%;
+  padding-bottom: 4%;
+  background-color: #C5919D;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
 }
 
 /*------------------------------BURGER MENU STYLING*-------------------------*/
