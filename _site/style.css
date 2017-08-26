@@ -57,6 +57,8 @@ nav {
   color: grey;
   padding: 2%;
   text-align:right;
+  margin-top: 0%;
+  margin-bottom: -2%;
 }
 nav a{
   padding:0 2%;
@@ -66,12 +68,11 @@ nav a{
   letter-spacing:3px;
   text-decoration: none;
 }
-
 nav a:hover {
   color:#C5919D;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight:bolder;
 }
+
 .banner{
   background-size:cover;
   height: 90vh;
@@ -83,17 +84,22 @@ nav a:hover {
   align-items: center;
 }
 
+.footer{
+font-size: 30px;
+}
+
 /*---------------------------home page styling----------------------------*/
 
 .about-text h2{
   background-color: #C5919D;
-  padding: 5%;
+  padding: 3%;
   margin: 5%;
 }
 
 .about-text p{
-  padding: 0%;
-  margin: 5%;
+  padding: 1% 8% 1% 8%;
+  margin: -2%;
+  text-align:center;
 }
 
 .circle-thumb {
@@ -103,28 +109,39 @@ nav a:hover {
   border-radius: 50%;
   margin: 0;
 }
+
+.service-block a{
+  text-decoration:none;
+}
+.circle-thumb h2{
+  transition: 2s;
+}
+.circle-thumb h2:hover{
+  color:#C5919D;
+  font-weight:bolder;
+}
+
 .location-background {
-  background-color: lightgrey;
+  background-color:#F8EFE4;
+  line-height: 2px;
 }
 /* want to have padding in most sections to have white space on the side of text*/
 
 /*--------------------------------my journey styling*-------------------*/
+
+.journey-header h1{
+  background-color: #C5919D;
+}
+.qual-header{
+  background-color: #C5919D;
+}
+
 .ange-image{
-  background-image: url('https://unsplash.it/200/300/?random');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  background-position: top;
+margin-left: 8%;
 }
 
 .boys-image{
-background-image: url('https://unsplash.it/200/300/?random');
-background-repeat: no-repeat;
-background-size: cover;
-height: 50vh;
-background-position: top;
 }
-
 .qualifications {
 
 }
@@ -144,26 +161,13 @@ background-position: top;
   background-position: top;
 }
 
-.hatha {
-  background-image: url('https://unsplash.it/100/100/?random');
-}
-.yin{
-  background-image: url('https://unsplash.it/200/200/?random')
-}
-
-.kid{
-    background-image: url('https://unsplash.it/300/200/?random')
-}
-
-.preg{
-    background-image: url('https://unsplash.it/400/300/?random')
-}
  h3{
   background-color: #C5919D;
+  padding: 3%;
 }
 
 p{
-  padding: 5%;
+  padding: 3%;
 }
 
 .timetable h3 {
@@ -181,12 +185,37 @@ p{
 
 
 /*-----------------------coaching section styling---------------------*/
+.coaching-banner {
+  background-image: url('images/coaching.jpeg');
+height: 60vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+justify-content: center;
+align-items: center;
+}
+
+.coaching h2{
+  padding-top: 3%;
+  margin-top: 3%;
+  background-color: #C5919D;
+}
 
 
 /*----------------------meditation section styling---------------------*/
+.meditation-banner-image {
+  background-image: url ("images/meditation.jpeg")
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20vw;
+  margin-bottom: 5%;
+  background-position: top;
+
+}
 
 .meditation-header{
   padding: 2%;
+  margin-top: 3%;
 }
 
 .meditation-paragraph {
