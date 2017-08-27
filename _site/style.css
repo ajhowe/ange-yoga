@@ -42,7 +42,7 @@ h3 {
   text-shadow: 2px 2px 4px #000000;
 }
 .container{
-  margin-top:5%;
+  margin-top:112px;
 }
 /*section {
   padding: 5%;
@@ -146,9 +146,12 @@ text-align:center;
 
 .journey-header {
   background-color: #C5919D;
-  padding-top: 6%;
-  padding-bottom: 5%;
-  margin-top: 5%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  margin-top: -2%;
+  width: 70%;
+  margin:auto;
+
 }
 
 .ange-image{
@@ -170,7 +173,7 @@ margin-top: 3%;
 }
 
 .qualifications {
-  padding:10%;
+  padding:10% 5% 0% 5%;
 }
 
 /*background colour for qualifiecations box iwth bullte points
@@ -233,6 +236,10 @@ align-items: center;
   background-color: #C5919D;
 }
 
+.coaching-paragraph{
+margin: 5%;
+}
+
 
 /*----------------------meditation section styling---------------------*/
 .grid-center {
@@ -261,7 +268,9 @@ align-items: center;
 
 .med-sub-header {
   padding: 3%;
-  margin: 5%
+  margin: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-weight: bold;
   font-size: 20px;
   text-align:center;
@@ -269,7 +278,7 @@ align-items: center;
 
 .meditation-paragraph {
   padding: 0%;
-  margin: 5%;
+  margin: 3%;
 }
 
 /*services section*/
@@ -293,16 +302,37 @@ align-items: center;
 
 
 /*-------------------------blog post styling-----------------------------------*/
-.recent-posts {
-  padding-top: 3%;
-  padding-bottom: 4%;
+
+.first-section {
+  margin-top: 30px;
+}
+.latest-post {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin-bottom: 3%;
   background-color: #C5919D;
-  margin: 10%;
+}
+.latest-article {
+  margin-bottom: 3%;
+}
+.latest-image {
+  margin-left:2%;
+  margin-top: 5%;
+}
+
+.recent-posts {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  background-color: #C5919D;
+  margin:: 5%;
   margin-top: 0%;
 }
 
 .post-preview {
   background color: lightgrey;
+}
+.post-preview img {
+  width:100%;
 }
 
 .post-preview h3 {
@@ -317,11 +347,11 @@ align-items: center;
   width: 30%;
 }
 .grid {
-  padding: 5%;
+  padding: 0%;
 }
 .category-posts {
-  padding-top: 3%;
-  padding-bottom: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background-color: #C5919D;
   max-width: 50%;
   margin-left: 25%;
