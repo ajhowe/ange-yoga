@@ -288,19 +288,6 @@ margin: 5%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------blog post styling-----------------------------------*/
 
 .first-section {
@@ -313,10 +300,11 @@ margin: 5%;
   background-color: #C5919D;
 }
 .latest-article {
+  margin-top: 0%;
   margin-bottom: 3%;
 }
 .latest-image {
-  margin-left:2%;
+  margin-left:5%;
   margin-top: 5%;
 }
 
